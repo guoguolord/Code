@@ -1,0 +1,3 @@
+D:\VSCode\cmake\cmake_3.31.0\bin\cmake.exe -E rm -f CMakeFiles\ReverseOrder.dir/objects.a
+D:\VSCode\mingw64\bin\ar.exe qc CMakeFiles\ReverseOrder.dir/objects.a @CMakeFiles\ReverseOrder.dir\objects1.rsp
+D:\VSCode\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ReverseOrder.dir/objects.a -Wl,--no-whole-archive -o ReverseOrder.exe -Wl,--out-implib,libReverseOrder.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ReverseOrder.dir\linkLibs.rsp
