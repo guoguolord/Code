@@ -40,7 +40,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/VSCode/cmake/cmake_3.31.0/share/cmake-3.31/Modules/Platform/Windows-windres.cmake"
   "D:/VSCode/cmake/cmake_3.31.0/share/cmake-3.31/Modules/Platform/Windows.cmake"
   "D:/VSCode/cmake/cmake_3.31.0/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake"
-  "E:/Code/CPlusPlus/CMakeLists.txt"
+  "E:/GitHub/Code/CPlusPlus/CMakeLists.txt"
   "CMakeFiles/3.31.0-rc2/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.0-rc2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.0-rc2/CMakeRCCompiler.cmake"
@@ -60,5 +60,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/BubbleSort.dir/DependInfo.cmake"
+  "CMakeFiles/ArrayStruct.dir/DependInfo.cmake"
   )

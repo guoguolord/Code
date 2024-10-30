@@ -1,0 +1,3 @@
+D:\VSCode\cmake\cmake_3.31.0\bin\cmake.exe -E rm -f CMakeFiles\DimensionArray.dir/objects.a
+D:\VSCode\mingw64\bin\ar.exe qc CMakeFiles\DimensionArray.dir/objects.a @CMakeFiles\DimensionArray.dir\objects1.rsp
+D:\VSCode\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\DimensionArray.dir/objects.a -Wl,--no-whole-archive -o DimensionArray.exe -Wl,--out-implib,libDimensionArray.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DimensionArray.dir\linkLibs.rsp

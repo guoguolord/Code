@@ -1,8 +1,8 @@
 #include<iostream>
-#include "../Header/bubbleSort.h"
+#include "../Header/twoArrayStruct.h"
 
 int main(){
-    bubble_sort();
+    arrayStruct();
     return 0;
 }
 

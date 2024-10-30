@@ -56,10 +56,10 @@ RM = D:\VSCode\cmake\cmake_3.31.0\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Code\CPlusPlus
+CMAKE_SOURCE_DIR = E:\GitHub\Code\CPlusPlus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Code\CPlusPlus\build
+CMAKE_BINARY_DIR = E:\GitHub\Code\CPlusPlus\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Code\CPlusPlus\build\CMakeFiles E:\Code\CPlusPlus\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\Code\CPlusPlus\build\CMakeFiles E:\GitHub\Code\CPlusPlus\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Code\CPlusPlus\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\Code\CPlusPlus\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,48 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BubbleSort
+# Target rules for targets named ArrayStruct
 
 # Build rule for target.
-BubbleSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BubbleSort
-.PHONY : BubbleSort
+ArrayStruct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ArrayStruct
+.PHONY : ArrayStruct
 
 # fast build rule for target.
-BubbleSort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
-.PHONY : BubbleSort/fast
-
-src/bubbleSort.obj: src/bubbleSort.cpp.obj
-.PHONY : src/bubbleSort.obj
-
-# target to build an object file
-src/bubbleSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/src/bubbleSort.cpp.obj
-.PHONY : src/bubbleSort.cpp.obj
-
-src/bubbleSort.i: src/bubbleSort.cpp.i
-.PHONY : src/bubbleSort.i
-
-# target to preprocess a source file
-src/bubbleSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/src/bubbleSort.cpp.i
-.PHONY : src/bubbleSort.cpp.i
-
-src/bubbleSort.s: src/bubbleSort.cpp.s
-.PHONY : src/bubbleSort.s
-
-# target to generate assembly for a file
-src/bubbleSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/src/bubbleSort.cpp.s
-.PHONY : src/bubbleSort.cpp.s
+ArrayStruct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/build
+.PHONY : ArrayStruct/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -165,7 +141,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -173,8 +149,32 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/twoArrayStruct.obj: src/twoArrayStruct.cpp.obj
+.PHONY : src/twoArrayStruct.obj
+
+# target to build an object file
+src/twoArrayStruct.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/twoArrayStruct.cpp.obj
+.PHONY : src/twoArrayStruct.cpp.obj
+
+src/twoArrayStruct.i: src/twoArrayStruct.cpp.i
+.PHONY : src/twoArrayStruct.i
+
+# target to preprocess a source file
+src/twoArrayStruct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/twoArrayStruct.cpp.i
+.PHONY : src/twoArrayStruct.cpp.i
+
+src/twoArrayStruct.s: src/twoArrayStruct.cpp.s
+.PHONY : src/twoArrayStruct.s
+
+# target to generate assembly for a file
+src/twoArrayStruct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/twoArrayStruct.cpp.s
+.PHONY : src/twoArrayStruct.cpp.s
 
 # Help Target
 help:
@@ -184,13 +184,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BubbleSort
-	@echo ... src/bubbleSort.obj
-	@echo ... src/bubbleSort.i
-	@echo ... src/bubbleSort.s
+	@echo ... ArrayStruct
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/twoArrayStruct.obj
+	@echo ... src/twoArrayStruct.i
+	@echo ... src/twoArrayStruct.s
 .PHONY : help
 
 

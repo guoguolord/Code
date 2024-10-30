@@ -53,20 +53,20 @@ RM = D:\VSCode\cmake\cmake_3.31.0\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Code\CPlusPlus
+CMAKE_SOURCE_DIR = E:\GitHub\Code\CPlusPlus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Code\CPlusPlus\build
+CMAKE_BINARY_DIR = E:\GitHub\Code\CPlusPlus\build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/BubbleSort.dir/all
+all: CMakeFiles/ArrayStruct.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/BubbleSort.dir/codegen
+codegen: CMakeFiles/ArrayStruct.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,39 +74,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/BubbleSort.dir/clean
+clean: CMakeFiles/ArrayStruct.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BubbleSort.dir
+# Target rules for target CMakeFiles/ArrayStruct.dir
 
 # All Build rule for target.
-CMakeFiles/BubbleSort.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Code\CPlusPlus\build\CMakeFiles --progress-num=1,2,3 "Built target BubbleSort"
-.PHONY : CMakeFiles/BubbleSort.dir/all
+CMakeFiles/ArrayStruct.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GitHub\Code\CPlusPlus\build\CMakeFiles --progress-num=1,2,3 "Built target ArrayStruct"
+.PHONY : CMakeFiles/ArrayStruct.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BubbleSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Code\CPlusPlus\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BubbleSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Code\CPlusPlus\build\CMakeFiles 0
-.PHONY : CMakeFiles/BubbleSort.dir/rule
+CMakeFiles/ArrayStruct.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\Code\CPlusPlus\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ArrayStruct.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\Code\CPlusPlus\build\CMakeFiles 0
+.PHONY : CMakeFiles/ArrayStruct.dir/rule
 
 # Convenience name for target.
-BubbleSort: CMakeFiles/BubbleSort.dir/rule
-.PHONY : BubbleSort
+ArrayStruct: CMakeFiles/ArrayStruct.dir/rule
+.PHONY : ArrayStruct
 
 # codegen rule for target.
-CMakeFiles/BubbleSort.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/codegen
-.PHONY : CMakeFiles/BubbleSort.dir/codegen
+CMakeFiles/ArrayStruct.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/codegen
+.PHONY : CMakeFiles/ArrayStruct.dir/codegen
 
 # clean rule for target.
-CMakeFiles/BubbleSort.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/clean
-.PHONY : CMakeFiles/BubbleSort.dir/clean
+CMakeFiles/ArrayStruct.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/clean
+.PHONY : CMakeFiles/ArrayStruct.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

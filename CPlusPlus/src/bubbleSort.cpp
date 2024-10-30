@@ -5,8 +5,8 @@ using namespace std;
 int max(int a, int b);
 void bubble_sort(){
     int array[9] = {4,2,8,0,5,7,1,3,9};
-    for (int i=0; i<9; i++){
-        for (int j=0; j < 9-i; j++){
+    for (int i=0; i<8; i++){
+        for (int j=0; j < 8-i; j++){
             if (max(array[j], array[j+1])){
                 int temp = array[j];
                 array[j] = array[j+1];
