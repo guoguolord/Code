@@ -1,5 +1,5 @@
 #include<iostream>
-#include "../Header/arrayPig.h"
+#include "../include/arrayPig.h"
 using namespace std;
 
 void pig(){

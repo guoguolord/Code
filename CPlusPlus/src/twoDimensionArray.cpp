@@ -1,5 +1,5 @@
 #include<iostream>
-#include "../Header/twoDimensionArray.h"
+#include "../include/twoDimensionArray.h"
 using namespace std;
 
 void twoArray(){
