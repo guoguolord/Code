@@ -1,5 +1,5 @@
 #include<iostream>
-#include "../Header/twoArrayStruct.h"
+#include "../include/twoArrayStruct.h"
 using namespace std;
 
 struct sorces
