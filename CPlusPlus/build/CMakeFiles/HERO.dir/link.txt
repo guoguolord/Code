@@ -1,0 +1,3 @@
+D:\VSCode\cmake\cmake_3.31.0\bin\cmake.exe -E rm -f CMakeFiles\HERO.dir/objects.a
+D:\VSCode\mingw64\bin\ar.exe qc CMakeFiles\HERO.dir/objects.a @CMakeFiles\HERO.dir\objects1.rsp
+D:\VSCode\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\HERO.dir/objects.a -Wl,--no-whole-archive -o HERO.exe -Wl,--out-implib,libHERO.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HERO.dir\linkLibs.rsp

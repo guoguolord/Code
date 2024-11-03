@@ -23,6 +23,7 @@ void arrayStruct(){
         {"lisi", 90, 50, 100},
         {"wangwu", 60, 70, 80}
     };
+    
     int stuent_num = sizeof(stduent) / sizeof(stduent[0]);
     for (int i=0; i<stuent_num; i++){
         int total_sorces = stduent[i].ChineseSorce + stduent[i].MathSorce + stduent[i].EnglishSorce; 
