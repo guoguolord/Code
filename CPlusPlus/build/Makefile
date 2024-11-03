@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ArrayStruct
+# Target rules for targets named HERO
 
 # Build rule for target.
-ArrayStruct: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ArrayStruct
-.PHONY : ArrayStruct
+HERO: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HERO
+.PHONY : HERO
 
 # fast build rule for target.
-ArrayStruct/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/build
-.PHONY : ArrayStruct/fast
+HERO/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HERO.dir\build.make CMakeFiles/HERO.dir/build
+.PHONY : HERO/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HERO.dir\build.make CMakeFiles/HERO.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -141,7 +141,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HERO.dir\build.make CMakeFiles/HERO.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -149,32 +149,32 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HERO.dir\build.make CMakeFiles/HERO.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/twoArrayStruct.obj: src/twoArrayStruct.cpp.obj
-.PHONY : src/twoArrayStruct.obj
+src/peopleSort.obj: src/peopleSort.cpp.obj
+.PHONY : src/peopleSort.obj
 
 # target to build an object file
-src/twoArrayStruct.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/twoArrayStruct.cpp.obj
-.PHONY : src/twoArrayStruct.cpp.obj
+src/peopleSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HERO.dir\build.make CMakeFiles/HERO.dir/src/peopleSort.cpp.obj
+.PHONY : src/peopleSort.cpp.obj
 
-src/twoArrayStruct.i: src/twoArrayStruct.cpp.i
-.PHONY : src/twoArrayStruct.i
+src/peopleSort.i: src/peopleSort.cpp.i
+.PHONY : src/peopleSort.i
 
 # target to preprocess a source file
-src/twoArrayStruct.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/twoArrayStruct.cpp.i
-.PHONY : src/twoArrayStruct.cpp.i
+src/peopleSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HERO.dir\build.make CMakeFiles/HERO.dir/src/peopleSort.cpp.i
+.PHONY : src/peopleSort.cpp.i
 
-src/twoArrayStruct.s: src/twoArrayStruct.cpp.s
-.PHONY : src/twoArrayStruct.s
+src/peopleSort.s: src/peopleSort.cpp.s
+.PHONY : src/peopleSort.s
 
 # target to generate assembly for a file
-src/twoArrayStruct.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayStruct.dir\build.make CMakeFiles/ArrayStruct.dir/src/twoArrayStruct.cpp.s
-.PHONY : src/twoArrayStruct.cpp.s
+src/peopleSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HERO.dir\build.make CMakeFiles/HERO.dir/src/peopleSort.cpp.s
+.PHONY : src/peopleSort.cpp.s
 
 # Help Target
 help:
@@ -184,13 +184,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ArrayStruct
+	@echo ... HERO
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/twoArrayStruct.obj
-	@echo ... src/twoArrayStruct.i
-	@echo ... src/twoArrayStruct.s
+	@echo ... src/peopleSort.obj
+	@echo ... src/peopleSort.i
+	@echo ... src/peopleSort.s
 .PHONY : help
 
 

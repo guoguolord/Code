@@ -1,8 +1,8 @@
 #include<iostream>
-#include "../Header/twoArrayStruct.h"
+#include "../include/peopleSort.h"
 
 int main(){
-    arrayStruct();
+    printHero();
     return 0;
 }
 

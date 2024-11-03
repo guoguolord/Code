@@ -1,3 +1,0 @@
-D:\VSCode\cmake\cmake_3.31.0\bin\cmake.exe -E rm -f CMakeFiles\ArrayStruct.dir/objects.a
-D:\VSCode\mingw64\bin\ar.exe qc CMakeFiles\ArrayStruct.dir/objects.a @CMakeFiles\ArrayStruct.dir\objects1.rsp
-D:\VSCode\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ArrayStruct.dir/objects.a -Wl,--no-whole-archive -o ArrayStruct.exe -Wl,--out-implib,libArrayStruct.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ArrayStruct.dir\linkLibs.rsp
