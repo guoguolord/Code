@@ -4,11 +4,5 @@
   "command": "D:\\VSCode\\mingw64\\bin\\g++.exe  @CMakeFiles/HERO.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\HERO.dir\\src\\main.cpp.obj -c E:\\GitHub\\Code\\CPlusPlus\\src\\main.cpp",
   "file": "E:/GitHub/Code/CPlusPlus/src/main.cpp",
   "output": "CMakeFiles/HERO.dir/src/main.cpp.obj"
-},
-{
-  "directory": "E:/GitHub/Code/CPlusPlus/build",
-  "command": "D:\\VSCode\\mingw64\\bin\\g++.exe  @CMakeFiles/HERO.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\HERO.dir\\src\\peopleSort.cpp.obj -c E:\\GitHub\\Code\\CPlusPlus\\src\\peopleSort.cpp",
-  "file": "E:/GitHub/Code/CPlusPlus/src/peopleSort.cpp",
-  "output": "CMakeFiles/HERO.dir/src/peopleSort.cpp.obj"
 }
 ]

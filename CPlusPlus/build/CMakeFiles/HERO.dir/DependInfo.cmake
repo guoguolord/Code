@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/GitHub/Code/CPlusPlus/src/main.cpp" "CMakeFiles/HERO.dir/src/main.cpp.obj" "gcc" "CMakeFiles/HERO.dir/src/main.cpp.obj.d"
-  "E:/GitHub/Code/CPlusPlus/src/peopleSort.cpp" "CMakeFiles/HERO.dir/src/peopleSort.cpp.obj" "gcc" "CMakeFiles/HERO.dir/src/peopleSort.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -84,12 +84,12 @@ clean: CMakeFiles/HERO.dir/clean
 CMakeFiles/HERO.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HERO.dir\build.make CMakeFiles/HERO.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HERO.dir\build.make CMakeFiles/HERO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GitHub\Code\CPlusPlus\build\CMakeFiles --progress-num=1,2,3 "Built target HERO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GitHub\Code\CPlusPlus\build\CMakeFiles --progress-num=1,2 "Built target HERO"
 .PHONY : CMakeFiles/HERO.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HERO.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\Code\CPlusPlus\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\Code\CPlusPlus\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/HERO.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\Code\CPlusPlus\build\CMakeFiles 0
 .PHONY : CMakeFiles/HERO.dir/rule
